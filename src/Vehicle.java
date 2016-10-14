@@ -1,11 +1,11 @@
 
 public class Vehicle {
 
-	private String _licensePlateNumber;
-	private String _colour;
-	private int _numberOfDoors;
-	private double _speed = 0;
-	private double _maxSpeed;
+	protected String _licensePlateNumber;
+	protected String _colour;
+	protected int _numberOfDoors;
+	protected double _speed = 0;
+	protected double _maxSpeed;
 
 	public Vehicle(String plate, String colour, int numberOfDoor, double maxVelocity){
 		this._licensePlateNumber = plate;

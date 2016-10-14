@@ -1,3 +1,10 @@
+/****************************************************************************
+ *
+ * Created by: Nicholas Ellul
+ * Created on: Oct 2016
+ * Vehicle class allows you to create vehicle objects.
+ * 
+ ****************************************************************************/
 
 public class Vehicle {
 

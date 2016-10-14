@@ -2,13 +2,24 @@
 public class Bicycle extends Vehicle {
 
 	private int _numberOfSeats = 0;
+	private int _gear;
 	
-	public Bicycle(String plate, String colour, double maxVelocity, int numOfSeats) {
+	
+	public Bicycle(String plate, String colour, double maxVelocity, int numOfSeats,int startGear) {
 		super(plate, colour, 0, maxVelocity);
 		// TODO Auto-generated constructor stub
 		_numberOfSeats = numOfSeats;
+		_gear = startGear;
+		
 	}
 
+	
+	public void setGear(int newGear){
+		
+		_gear = newGear;
+	}
+	
+	
 	@Override
 	public void printState(){
 		

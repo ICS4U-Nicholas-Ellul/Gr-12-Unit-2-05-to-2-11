@@ -1,3 +1,10 @@
+/****************************************************************************
+ *
+ * Created by: Nicholas Ellul
+ * Created on: Oct 2016
+ * This program is the bike class which is the subclass of the vehicle class.
+ * 
+ ****************************************************************************/
 
 public class Bicycle extends Vehicle {
 

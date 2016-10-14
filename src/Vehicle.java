@@ -1,3 +1,10 @@
+/****************************************************************************
+ *
+ * Created by: Nicholas Ellul
+ * Created on: Oct 2016
+ * This program is the vehicle super class.
+ * 
+ ****************************************************************************/
 
 public class Vehicle {
 

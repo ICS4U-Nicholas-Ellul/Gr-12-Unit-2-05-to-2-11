@@ -1,3 +1,10 @@
+/****************************************************************************
+ *
+ * Created by: Nicholas Ellul
+ * Created on: Oct 2016
+ * This program is the truck class which is a subclass of the vehicle class.
+ * 
+ ****************************************************************************/
 
 public class Truck extends Vehicle {
 

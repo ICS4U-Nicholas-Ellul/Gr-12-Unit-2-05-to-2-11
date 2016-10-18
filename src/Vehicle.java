@@ -6,7 +6,7 @@
  * 
  ****************************************************************************/
 
-public class Vehicle {
+public abstract class Vehicle {
 
 	protected String _licensePlateNumber;
 	protected String _colour;

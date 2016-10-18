@@ -8,8 +8,8 @@ public class Bicycle extends Vehicle {
 	public Bicycle(String plate, String colour, double maxVelocity, int numOfSeats,int startGear) {
 		super(plate, colour, 0, maxVelocity);
 		// TODO Auto-generated constructor stub
-		_numberOfSeats = numOfSeats;
-		_gear = startGear;
+		this._numberOfSeats = numOfSeats;
+		this._gear = startGear;
 		
 	}
 
@@ -17,6 +17,7 @@ public class Bicycle extends Vehicle {
 	public void setGear(int newGear){
 		
 		_gear = newGear;
+		
 	}
 	
 	
